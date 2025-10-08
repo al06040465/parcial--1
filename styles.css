@@ -1,7 +1,7 @@
 // Cargar imagenes almacenados al iniciar
 window.onload = function() { // Se ejecuta automáticamente cuando la página termina de cargar
   const imagenesGuardados = JSON.parse(localStorage.getItem('imagenes')) || []; // Obtiene las imafenes guardados en localStorage o un array vacío si no hay
-  comentariosGuardados.forEach(c => mostrarComentario(c)); // Recorre cada comentario y lo muestra en pantalla
+  imagenesGuardados.forEach(c => mostrarComentario(c)); // Recorre cada comentario y lo muestra en pantalla
 }
 
 window.onload = function() {
