@@ -2,12 +2,12 @@ body { /* Estilos generales para toda la página */
   font-family: Arial, sans-serif; /* Fuente de texto principal */
   margin: 0; /* Elimina los márgenes por defecto */
   padding: 0; /* Elimina los rellenos por defecto */
-  background: #f4f4f9; /* Color de fondo gris claro */
+  background: #f4f4f9; /* Color de fondo amarillo claro */
 }
 
 header { /* Estilos para el encabezado */
   background: #333; /* Fondo verde oscuro */
-  color: white; /* Texto en color blanco */
+  color: white; /* Texto en color negro */
   text-align: center; /* Centra el texto horizontalmente */
   padding: 1rem; /* Relleno interno de 1 unidad rem */
 }
@@ -22,7 +22,7 @@ main { /* Estilos para el contenido principal */
 }
 
 h2 { /* Estilos para subtítulos */
-  color: #333; /* Texto en gris oscuro */
+  color: #333; /* Texto en verde oscuro */
 }
 
 .comment-form { /* Estilos para el formulario de comentarios */
@@ -47,15 +47,15 @@ h2 { /* Estilos para subtítulos */
 }
 
 .comment-form button:hover { /* Efecto cuando se pasa el ratón sobre el botón */
-  background: #555; /* Cambia a gris más claro */
+  background: #555; /* Cambia a rojo más claro */
 }
 
 .comment-form .btn-delete { /* Botón de borrar comentarios */
-  background: darkred; /* Fondo rojo oscuro */
+  background: darkred; /* Fondo azul oscuro */
 }
 
 .comment-form .btn-delete:hover { /* Efecto hover para el botón de borrar */
-  background: red; /* Cambia a rojo brillante */
+  background: red; /* Cambia a morado brillante */
 }
 
 .comment { /* Estilos para cada comentario publicado */
