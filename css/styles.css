@@ -8,7 +8,7 @@ body { /* Estilo del cuerpo entero */
 
 /* ===== Header ===== */
 header { /* Estilo del encabezado */
-  background: #333; /* Fondo oscuro */
+  background: #333; /* Fondo verde oscuro */
   color: white; /* Texto en blanco */
   text-align: center; /* Centrar texto */
   padding: 1rem; /* Espacio interno */
@@ -53,7 +53,7 @@ main { /* Caja principal centrada */
 
 /* Botón principal */
 #publicarBtn { /* Estilo del botón publicar */
-  background: #333; /* Fondo oscuro */
+  background: #333; /* Fondo gris oscuro */
   color: white; /* Texto blanco */
   border: none; /* Sin borde */
   cursor: pointer; /* Cursor mano */
@@ -147,3 +147,4 @@ main { /* Caja principal centrada */
 
 /* Estilos para mensajes de error */
 .error { color: darkred; margin-top: 6px; font-size: 0.95rem; }
+
